@@ -1,0 +1,136 @@
+﻿* {
+    margin:0 auto;
+    text-align:center;
+    font-weight:bold
+}
+
+.container {
+    outline:dashed red 10px;
+    margin:auto;
+    margin-top:50px
+}
+
+.row {
+    min-height: 45px
+}
+
+.col {
+    min-height:45px;
+}
+
+.header {
+    background-color:burlywood;
+    border-top:2px solid black;
+    border-right: 2px solid black;
+    border-left:2px solid black
+}
+
+.nav {
+    background-color: darkcyan;
+    color: white;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black
+}
+
+.section {
+    background-color: darkgray;
+    height: 75px;
+    border-top: 2px solid black;
+    border-left: 2px solid black
+}
+
+.article {
+    background-color: darkmagenta;
+    color: white;
+    height: 75px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom:2px solid black
+}
+
+.aside {
+    background-color:aqua;
+    height:150px;
+    border:2px solid black
+}
+
+.footer {
+    background-color:darkgoldenrod;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+
+.one {
+    background-color: darkblue;
+    border-left:2px solid black;
+    border-bottom:2px solid black
+}
+
+.two {
+    background-color: cadetblue;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.three {
+    background-color: darkgoldenrod;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.four {
+    background-color: darkgray;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.five {
+    background-color: burlywood;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.six {
+    background-color: darkmagenta;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.seven {
+    background-color: darkolivegreen;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.eight {
+    background-color: darkviolet;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.nine {
+    background-color: darkorange;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.ten {
+    background-color: aqua;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.eleven {
+    background-color: darkorchid;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.twelve {
+    background-color: darkred;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right:2px solid black
+}

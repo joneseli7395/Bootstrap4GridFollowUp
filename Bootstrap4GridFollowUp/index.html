@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bootstrap 4 Grid Follow-Up</title>
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/CustomCSS.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="row header">        <!--First row-->
+            <header>&lt;header&gt;</header>
+        </div>
+
+        <div class="row nav">       <!--Second row-->
+            <nav>&lt;nav&gt;</nav>
+        </div>
+
+        <div class="row">          <!--Third & fourth rows; notice row is shared by two columns-->
+            <div class="col-9">     <!--First column-->
+
+                <section class="row section">  
+                    <span>&lt;section&gt;</span>
+                </section>
+                                         <!--Using <span> on section & article elements to center?-->
+                <article class="row article">
+                    <span>&lt;article&gt;</span>
+                </article>
+            </div>
+
+            <aside class="col aside">       <!--Second column-->
+                &lt;aside&gt;
+            </aside>
+        </div>
+        
+        <div class="row footer">        <!--Fifth row-->
+            <footer>&lt;footer&gt;</footer> 
+        </div>
+
+        <div class="row">               <!--Sixth row; individually classed columns-->
+            <div class="col one"></div>
+            <div class="col two"></div>
+            <div class="col three"></div>
+            <div class="col four"></div>
+            <div class="col five"></div>
+            <div class="col six"></div>
+            <div class="col seven"></div>
+            <div class="col eight"></div>
+            <div class="col nine"></div>
+            <div class="col ten"></div>
+            <div class="col eleven"></div>
+            <div class="col twelve"></div>
+        </div>
+
+    </div>
+
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>
